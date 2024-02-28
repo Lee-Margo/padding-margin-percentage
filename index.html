@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-李依宸</title>
+    <style>
+        body{
+            margin-top: 100px;
+        }
+        #box-all{
+            background-color:  #f5eccd;
+            width: 80%;
+            height: 600px;
+            margin:auto;
+            padding: 10px;
+        }
+        #box-Header{
+            background-color:#fcd800;
+            width: 100%;
+            height: calc(20% - (20px/3));         
+        }
+        #box-Main{
+            background-color:#f5eccd;
+            width: 100%;
+            height: calc(60% - (20px/3));
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #box-Footer{
+            background-color:#21b2ab;
+            width: 100%;
+            height: calc(20% - (20px/3));
+        }
+        #main-L{
+            background-color:#89cdfa;
+            width: calc(34% - 5px);
+            height: 100%;
+            float: left;
+            margin-right: 10px;
+        }
+        #main-R{
+            background-color: #f5eccd;
+            width: calc(66% - 5px);
+            height: 100%;
+            float: right;
+        }
+        #mainR-top{
+            background-color:#b0c5e0;
+            width: 100%;
+            height: calc(34% - 20px/3);
+        }
+        #mainR-mid{
+            background-color:#fd69b5;
+            width: 100%;
+            height: calc(32% - 20px/3);
+            margin-top:10px;
+            margin-bottom: 10px;
+        }
+        #mainR-down{
+            background-color:#b0ff32;
+            width: 100%;
+            height: calc(34% - 20px/3);
+
+        }
+    </style>
+</head>
+<body>
+    <div id="box-all">
+        <div id="box-Header"></div>
+        <div id="box-Main">
+            <div id="main-L"></div>
+            <div id="main-R">
+                <div id="mainR-top"></div>
+                <div id="mainR-mid"></div>
+                <div id="mainR-down"></div>
+            </div>
+        </div>
+        <div id="box-Footer"></div>
+    </div>
+</body>
+</html>
